@@ -32,6 +32,7 @@ public class LoginTest {
 		MyAccountPage Acc=new MyAccountPage(driver);
 		Assert.assertTrue(Acc.AccoutLink().isDisplayed());
 		System.out.println("Login is Successful");
+		System.out.println("Login is Successful-POM");
 		
 		}
 	
